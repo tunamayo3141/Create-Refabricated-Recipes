@@ -1,0 +1,36 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_lapis_lazuli"
+        }
+    ],
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "create:cinder_flour",
+        "minecraft:calcite"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:lapis_lazuli",
+            "count": 2
+        }
+    ]
+}

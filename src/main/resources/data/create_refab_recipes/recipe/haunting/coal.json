@@ -1,0 +1,15 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_coal"
+        }
+    ],
+    "type": "create:haunting",
+    "ingredient": "minecraft:charcoal",
+    "results": [
+        {
+            "id": "minecraft:coal"
+        }
+    ]
+}

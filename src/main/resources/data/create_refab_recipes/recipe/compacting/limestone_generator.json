@@ -1,0 +1,50 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_limestone_generator"
+        }
+    ],
+    "type": "create:compacting",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "create:powdered_obsidian"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 40500,
+            "fluid": "minecraft:lava"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 10125,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:powdered_obsidian"
+        },
+        {
+            "id": "create:limestone",
+            "count": 16
+        }
+    ]
+}

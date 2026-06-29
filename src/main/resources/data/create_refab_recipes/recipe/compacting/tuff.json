@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_tuff"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        "minecraft:flint",
+        "minecraft:flint",
+        "minecraft:cobblestone"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 16200,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:tuff"
+        }
+    ]
+}

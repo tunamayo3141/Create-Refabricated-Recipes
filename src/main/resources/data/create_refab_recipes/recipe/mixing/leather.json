@@ -1,0 +1,43 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_leather"
+        }
+    ],
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:rotten_flesh",
+        "minecraft:calcite"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        }
+    ],
+    "processing_time": 900
+}

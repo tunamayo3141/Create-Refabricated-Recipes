@@ -1,0 +1,33 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_diamond"
+        }
+    ],
+    "type": "create:compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block",
+        "minecraft:coal_block"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 40500,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:diamond"
+        }
+    ]
+}

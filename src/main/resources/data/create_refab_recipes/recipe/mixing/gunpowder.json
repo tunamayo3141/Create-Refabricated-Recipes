@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_gunpowder"
+        }
+    ],
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", 
+        "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour",
+        "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour",
+        "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour", "create:cinder_flour",
+        "minecraft:sugar", "minecraft:sugar"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 40500,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "count": 16,
+            "id": "minecraft:gunpowder"
+        }
+    ],
+    "processing_time": 450
+}

@@ -1,0 +1,23 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_wither_skull"
+        }
+    ],
+    "type": "create:crushing",
+    "ingredient": "create:scorchia",
+    "results": [
+        {
+            "chance": 0.5,
+            "count": 1,
+            "id": "create:scoria"
+        },
+        {
+            "chance": 0.001,
+            "count": 1,
+            "id": "minecraft:wither_skeleton_skull"
+        }
+    ],
+    "processing_time": 150
+}

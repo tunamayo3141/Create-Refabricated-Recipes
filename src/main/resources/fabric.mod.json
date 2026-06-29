@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "create_refab_recipes",
+	"version": "${version}",
+	"name": "Create: Refabricated Recipes",
+	"description": "Useful, balanced, and scientifically plausible recipes for automating everything in the Create Fly modern fabric fork.",
+	"authors": [
+		"tunamayo"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/create_refab_recipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tnmy.create_refab_recipes.CreateRefabricatedRecipes"
+		],
+		"client": [
+			"tnmy.create_refab_recipes.client.CreateRefabricatedRecipesClient"
+		]
+	},
+	"mixins": [
+		"create_refab_recipes.mixins.json",
+		{
+			"config": "create_refab_recipes.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

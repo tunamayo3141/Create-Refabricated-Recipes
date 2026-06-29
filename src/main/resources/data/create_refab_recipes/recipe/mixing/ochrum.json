@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_ochrum"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:ochrum"
+        }
+    ]
+}

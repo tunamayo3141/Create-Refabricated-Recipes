@@ -1,0 +1,38 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_basalt_generator"
+        }
+    ],
+    "type": "create:compacting",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "minecraft:blue_ice",
+        "minecraft:netherite_scrap"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 16200,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:blue_ice"
+        },
+        {
+            "id": "minecraft:netherite_scrap"
+        },
+        {
+            "count": 16,
+            "id": "minecraft:basalt"
+        }
+    ]
+}

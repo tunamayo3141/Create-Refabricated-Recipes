@@ -1,0 +1,36 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_polished_rose_quartz"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        "create:powdered_obsidian",
+        "minecraft:sand", "minecraft:sand", "minecraft:sand", "minecraft:sand","minecraft:sand", "minecraft:sand", "minecraft:sand", "minecraft:sand",
+        "minecraft:gravel", "minecraft:gravel", "minecraft:gravel", "minecraft:gravel","minecraft:gravel", "minecraft:gravel", "minecraft:gravel", "minecraft:gravel",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz",
+        "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz", "create:rose_quartz"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 40500,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "count": 64,
+            "id": "create:polished_rose_quartz"
+        }
+    ],
+    "processing_time": 1200
+}

@@ -1,0 +1,25 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_calcite"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        "create:limestone",
+        "create:limestone"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:calcite"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_wither_rose"
+        }
+    ],
+  "type": "create:haunting",
+  "ingredient": "minecraft:rose_bush",
+  "results": [
+    {
+      "id": "minecraft:wither_rose",
+      "chance": 0.4
+    }
+  ]
+}

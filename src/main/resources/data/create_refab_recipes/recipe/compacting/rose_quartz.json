@@ -1,0 +1,19 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_rose_quartz"
+        }
+    ],
+    "type": "create:compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        "minecraft:quartz",
+        "minecraft:redstone"
+    ],
+    "results": [
+        {
+            "id": "create:rose_quartz"
+        }
+    ]
+}

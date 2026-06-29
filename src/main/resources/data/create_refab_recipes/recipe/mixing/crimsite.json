@@ -1,0 +1,29 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_crimsite"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget",
+        "minecraft:iron_nugget"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:crimsite"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_cobbled_deepslate"
+        }
+    ],
+    "type": "create:compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:flint",
+        "minecraft:flint",
+        "minecraft:flint",
+        "minecraft:flint",
+        "create:powdered_obsidian"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 40500,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:powdered_obsidian"
+        },
+        {
+            "id": "minecraft:cobbled_deepslate",
+            "count": 16
+        }
+    ]
+}

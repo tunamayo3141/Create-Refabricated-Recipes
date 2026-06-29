@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "create_refab_recipes:config_check",
+            "setting": "enable_redstone"
+        }
+    ],
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        "create:cinder_flour",
+        "minecraft:iron_nugget"
+    ],
+    "fluid_ingredients": [
+        {
+            "type": "fluid_stack",
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:redstone",
+            "count": 2
+        }
+    ]
+}
