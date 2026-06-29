@@ -1,6 +1,7 @@
-
-![Logo](https://i.imgur.com/w1X6G7a.png)
-
+<div align="center">
+  <!-- <img src="./src/main/resources/assets/create_refab_recipes/icon.png" width="20%"> -->
+  <img src="https://i.imgur.com/w1X6G7a.png" width="80%">
+</div>
 
 # Create: Refabricated Recipes
 
