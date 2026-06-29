@@ -1,6 +1,7 @@
 plugins {
 	id 'net.fabricmc.fabric-loom' version "${loom_version}"
 	id 'maven-publish'
+	id 'com.modrinth.minotaur' version '2.+'
 }
 
 version = project.mod_version
@@ -47,8 +48,8 @@ dependencies {
 	//Create Fly
 	implementation "maven.modrinth:create-fly:26.1.2-6.0.9-4"
 
-	// Just Enough Items for recipe testing
-	implementation "maven.modrinth:jei:${project.jei_version}"
+	// Just Enough Items for recipe testing (indev)
+	// implementation "maven.modrinth:jei:${project.jei_version}"
 }
 
 processResources {
@@ -97,5 +98,21 @@ publishing {
 		// Notice: This block does NOT have the same function as the block in the top level.
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
+	}
+}
+
+//Modrinth Minotaur
+modrinth {
+	token = System.getenv("MODRINTH_TOKEN")
+	projectId = "lw22KiHb"
+	versionNumber = project.mod_version
+	versionName = "Create: Refabricated Recipes v${project.mod_version}"
+	changelog = file("CHANGELOG.md").text
+	uploadFile = file("build/libs/${project.archives_base_name}-${project.version}.jar")
+	gameVersions = ["26.1.2"]
+	loaders = ["fabric"]
+	dependencies {
+		required.project "fabric-api"
+		required.project "create-fly"
 	}
 }

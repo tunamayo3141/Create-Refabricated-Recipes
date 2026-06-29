@@ -5,9 +5,13 @@
 	"name": "Create: Refabricated Recipes",
 	"description": "Useful, balanced, and scientifically plausible recipes for automating everything in the Create Fly modern fabric fork.",
 	"authors": [
-		"tunamayo"
+		"tunamayo3141"
 	],
-	"contact": {},
+	"contact": {
+		"homepage": "https://github.com/tunamayo3141/Create-Refabricated-Recipes",
+		"sources": "https://github.com/tunamayo3141/Create-Refabricated-Recipes",
+		"issues": "https://github.com/tunamayo3141/Create-Refabricated-Recipes/issues"
+	},
 	"license": "MIT",
 	"icon": "assets/create_refab_recipes/icon.png",
 	"environment": "*",
@@ -30,6 +34,15 @@
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~26.1.2",
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"create": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.issues": "https://github.com/tunamayo3141/Create-Refabricated-Recipes/issues",
+				"modmenu.source": "https://github.com/tunamayo3141/Create-Refabricated-Recipes"
+			}
+		}
 	}
 }
