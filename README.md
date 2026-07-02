@@ -7,6 +7,7 @@
 
 A Fabric mod that adds useful, balanced, and scientifically plausible recipes for **Create Fly** (the modern Fabric port of Create).
 
+[Download on Modrinth](https://modrinth.com/mod/create-refabricated-recipes)
 
 ## License
 
